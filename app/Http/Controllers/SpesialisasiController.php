@@ -124,7 +124,6 @@ class SpesialisasiController extends Controller
 
     $spesialisasi = Spesialisasi::all();
 
-    dd($spesialisasi);
 
     return view('bantuan', compact('data', 'spesialisasi'));
 }
